@@ -1,0 +1,8 @@
+*.onnx filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+backends/* filter=lfs diff=lfs merge=lfs -text
+clients/* filter=lfs diff=lfs merge=lfs -text
+backends/* filter=lfs diff=lfs merge=lfs -text
+qa/* filter=lfs diff=lfs merge=lfs -text
+test-util/* filter=lfs diff=lfs merge=lfs -text
